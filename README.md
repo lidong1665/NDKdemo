@@ -43,12 +43,10 @@ extern "C" {
  */
 JNIEXPORT jint JNICALL Java_com_lidong_demo_ndkdemo_NdkTest_add
   (JNIEnv *, jclass, jint, jint);
-
-
-   #ifdef __cplusplus
+   # ifdef __cplusplus
 }
-   #endif
-   #endif
+   # endif
+   # endif
 ##6实现Java_com_lidong_demo_ndkdemo_NdkTest_add.文件
 
 //
@@ -63,3 +61,7 @@ JNIEXPORT jint JNICALL Java_com_lidong_demo_ndkdemo_NdkTest_add
 }
 ##7.最后在调用。
  text.setText("计算1+2的结果"+NdkTest.add(1,2)+"");;
+ 
+ ##8效果效果
+![](https://github.com/lidong1665/NDKdemo/blob/master/截图/QQ图片20160424173954.jpg)
+![](https://github.com/lidong1665/NDKdemo/blob/master/截图/QQ图片20160424174559.png)
