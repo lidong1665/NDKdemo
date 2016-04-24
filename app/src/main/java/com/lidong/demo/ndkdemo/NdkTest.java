@@ -12,6 +12,13 @@ public class NdkTest {
      */
    public static native  int add(int i,int j);
 
+    /**
+     *
+     * @param message
+     * @return
+     */
+    public static native String getNdkHelloWorld(String message);
+
     static {
         System.loadLibrary("ndk-test");
     }

@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         TextView text = (TextView) findViewById(R.id.text);
+        TextView text1 = (TextView) findViewById(R.id.text1);
         setSupportActionBar(toolbar);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
@@ -30,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        text.setText("计算1+2的结果"+NdkTest.add(1,2)+"");
+        text.setText("计算1+2的结果"+NdkTest.add(1,2)+"");;
     }
 
     @Override

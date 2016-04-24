@@ -15,6 +15,7 @@ extern "C" {
 JNIEXPORT jint JNICALL Java_com_lidong_demo_ndkdemo_NdkTest_add
   (JNIEnv *, jclass, jint, jint);
 
+
 #ifdef __cplusplus
 }
 #endif

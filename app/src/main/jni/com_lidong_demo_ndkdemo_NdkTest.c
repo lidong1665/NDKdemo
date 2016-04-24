@@ -9,3 +9,5 @@ JNIEXPORT jint JNICALL Java_com_lidong_demo_ndkdemo_NdkTest_add
   return i+j;
 }
 
+
+
