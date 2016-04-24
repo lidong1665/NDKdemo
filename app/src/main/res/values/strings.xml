@@ -16,13 +16,6 @@ limitations under the License.
 -->
 <resources>
 
-    <string name="nfc_comment">NFC provisioning sample</string>
-
-    <string name="hint_package_name">Package name of device owner</string>
-    <string name="hint_locale">Locale</string>
-    <string name="hint_timezone">Timezone</string>
-    <string name="hint_wifi_ssid">WiFi SSID</string>
-    <string name="hint_wifi_security_type">WiFi security type</string>
-    <string name="hint_wifi_password">WiFi password</string>
+    <string name="app_name">Android中NDK的使用</string>
 
 </resources>
