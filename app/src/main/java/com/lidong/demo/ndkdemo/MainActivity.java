@@ -31,7 +31,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        text.setText("计算1+2的结果"+NdkTest.add(1,2)+"");;
+        text.setText("计算1+2的结果"+NdkTest.add(1,2)+"");
+        text1.setText(NdkTest.getNdkHelloWorld("Hello world"));
     }
 
     @Override

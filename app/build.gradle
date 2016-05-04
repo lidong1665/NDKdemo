@@ -24,7 +24,9 @@ android {
         }
     }
 
-
+    sourceSets.main {
+        jni.srcDirs = []
+    }
 }
 
 dependencies {
